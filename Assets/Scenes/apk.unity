@@ -167941,8 +167941,8 @@ GameObject:
   - component: {fileID: 1643742637389276902}
   - component: {fileID: 2137159515685943149}
   - component: {fileID: 6107453048321378061}
-  - component: {fileID: 7465340583453625752}
   - component: {fileID: 7465340583453625751}
+  - component: {fileID: 7465340583453625752}
   m_Layer: 0
   m_Name: Door_Extrude_5_Door_Frame_0
   m_TagString: Untagged
@@ -167963,8 +167963,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PuertaAnimator: {fileID: 6304344592441839255}
---- !u!64 &7465340583453625752
-MeshCollider:
+--- !u!65 &7465340583453625752
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -167981,10 +167981,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1628570634739831641, guid: 8b6b0cde1581b0e4a95e03eccd977a4a, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 1.0240004, y: 1.992, z: 0.020000014}
+  m_Center: {x: -0.5120002, y: 0.99600095, z: -0.009999881}
 --- !u!4 &7465437987572039877
 Transform:
   m_ObjectHideFlags: 0
