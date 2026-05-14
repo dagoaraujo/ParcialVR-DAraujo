@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Coleccionable : MonoBehaviour
@@ -13,6 +14,7 @@ public class Coleccionable : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Recoger();
+            SujetoObservableControlador.IncrementarContadorColeccionable.Invoke();
         }
     }
 
